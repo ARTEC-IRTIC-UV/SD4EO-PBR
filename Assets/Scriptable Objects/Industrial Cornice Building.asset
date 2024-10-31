@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b79da42628b6ca4293a040e5fba663e, type: 3}
+  m_Name: Industrial Cornice Building
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 1f7a9ed660c97b9419174f9c5034ed92, type: 2}
+  - {fileID: 2100000, guid: ed9911ef610f7f345a44ad372a6b69ad, type: 2}
+  colors:
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0}
+  - {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 0}
+  buildingWidthMinMax: {x: 8, y: 12}
+  buildingHeightMinMax: {x: 5, y: 20}
+  corniceHeightMinMax: {x: 0.5, y: 2}
+  corniceWidthMinMax: {x: 0.5, y: 2}
+  wallMaterials:
+  - {fileID: 2100000, guid: a2f249071c160724ca4a31431600879b, type: 2}
+  - {fileID: 2100000, guid: 262af17a5c63924418ead2b14f0d0c3f, type: 2}
+  solarPanelRoofProbability: 42
+  solarPanelDensity: 59.2
+  solarPanelRoofMaterial: {fileID: 2100000, guid: 1ff9694e552876b4ca7a8d9dac5f1715, type: 2}

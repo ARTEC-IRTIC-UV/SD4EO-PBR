@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a0868bef7739949ba9309bfdfba196, type: 3}
+  m_Name: Residential Roof Building
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: d278095da5628804b940b14e945f1a47, type: 2}
+  - {fileID: 2100000, guid: e744965af5eb06546be1bbfbff8fffb2, type: 2}
+  colors:
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 0}
+  - {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0}
+  buildingWidthMinMax: {x: 8, y: 12}
+  buildingHeightMinMax: {x: 5, y: 10}
+  roofHeightMultiplyerMinMax: {x: 0.5, y: 1}
+  roofFlyLengthMinMax: {x: 0.5, y: 2}
+  wallMaterials:
+  - {fileID: 2100000, guid: e2dd9126d44cd3e478c12826808799ee, type: 2}
+  solarPanelMaterial: {fileID: 2100000, guid: 1ff9694e552876b4ca7a8d9dac5f1715, type: 2}

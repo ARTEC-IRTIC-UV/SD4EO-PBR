@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad1cee4a248312429776bc197da9613, type: 3}
+  m_Name: Vegetation trees
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: bbbc3c2a81923d544a41b757aaf5cb2c, type: 2}
+  - {fileID: 2100000, guid: b252a047f24a5d247a25701795b24c1d, type: 2}
+  colors: []
+  buildingWidthMinMax: {x: 8, y: 12}
+  vegetationProbabilityMinMax: {x: 0.25, y: 1}
+  vegetationHeightMinMax: {x: 4, y: 8}
+  vegetationWidthMinMax: {x: 3, y: 5}
+  vegetationColors:
+  - {r: 0.092114635, g: 0.2830189, b: 0.10257515, a: 0}
+  - {r: 0.13184361, g: 0.38679248, b: 0.06385724, a: 0}
+  vegetationMaterial: {fileID: 2100000, guid: 88131b9efb86e294aacdb5b1d0d0e666, type: 2}

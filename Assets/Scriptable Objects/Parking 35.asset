@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7e04e39d107089429b55462dff49f7b, type: 3}
+  m_Name: Parking 35
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 128f98fd39e71894da84f9b323e8e8d6, type: 2}
+  color: {r: 0, g: 0, b: 0, a: 0}
+  numberOfCarsPerUnit: 3
+  flipNoneStreets: 0
+  vehicleRotation: 35
+  vehicleProbabilityMinMax: {x: 0.1, y: 0.7}
+  vehicleColors:
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0.2955659, b: 0.6415094, a: 0}
+  - {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0}
+  - {r: 1, g: 1, b: 1, a: 0}
+  vehicleMaterial: {fileID: 2100000, guid: 80af7397e3bbd474dac37e69a0dc2a8a, type: 2}

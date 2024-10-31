@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b79da42628b6ca4293a040e5fba663e, type: 3}
+  m_Name: Downtown Cornice Building
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 441d270d85958fd4294d8641b1e0839e, type: 2}
+  - {fileID: 2100000, guid: 42b67d95cb4b1104b9dedaf75c68d616, type: 2}
+  - {fileID: 2100000, guid: 1eaef330dd3f6054aaef1e7b68ff230a, type: 2}
+  colors:
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
+  - {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 0}
+  buildingWidthMinMax: {x: 8, y: 12}
+  buildingHeightMinMax: {x: 20, y: 60}
+  corniceHeightMinMax: {x: 0.5, y: 1.5}
+  corniceWidthMinMax: {x: 0.3, y: 1}
+  wallMaterials:
+  - {fileID: 2100000, guid: c3cd7309fe03df241b707854a1804c99, type: 2}
+  - {fileID: 2100000, guid: a333dc7304fce5546943407f7e5f5a4f, type: 2}
+  solarPanelRoofProbability: 1.7
+  solarPanelDensity: 50
+  solarPanelRoofMaterial: {fileID: 2100000, guid: 1ff9694e552876b4ca7a8d9dac5f1715, type: 2}
