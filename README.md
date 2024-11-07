@@ -190,9 +190,6 @@ The next (and final) step of the configuration is for rendering. We can select t
   <img src="./doc/image31.png" alt="Image 2" width="400" />
 </p>
 
-#### DEBUG
-
-In this
 
 ### GENERATION OF DATASET
 
